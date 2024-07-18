@@ -1,0 +1,125 @@
+
+.title {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/画像.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+     background-repeat: no-repeat; 
+     min-height: 100vh;
+    width: 100%;
+     z-index: -1; 
+}
+ 
+
+.baseball{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        padding:0;
+        margin:0;
+        font-size:200px;
+        color: red;
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
+body{
+    height: 150vmax;
+}
+
+
+
+.batt{
+    background-color: rgb(243, 216, 136);
+    width: 100%;  
+    height: 450px;  
+    display:flex;  
+    justify-content:space-evenly;
+}
+
+
+
+.batt1{
+    position: relative;
+    top: 50px;
+}
+.batt2{
+    position: relative;
+    top: 50px;
+}
+.batt3{
+    position: relative;
+    top: 50px;
+}
+.batt4{
+    position: relative;
+    top: 50px;
+}
+
+
+.grob{
+    background-color:  rgb(237, 219, 163);
+    width: 100%;  
+    height: 450px;  
+    display:flex;  
+    justify-content:space-evenly;
+}
+
+
+.grob1{
+    position: relative;
+    top: 50px;
+}
+.grob2{
+    position: relative;
+    top: 50px;
+}
+.grob3{
+    position: relative;
+    top: 50px;
+}
+.grob4{
+    position: relative;
+    top: 50px;
+}
+
+
+
+.belt{
+    background-color:  rgb(244, 233, 203);
+    width: 100%;  
+    height: 450px;  
+    display:flex;  
+    justify-content:space-evenly;
+}
+
+
+.belt1{
+    position: relative;
+    top: 50px;
+}
+.belt2{
+    position: relative;
+    top: 50px;
+}
+.belt3{
+    position: relative;
+    top: 50px;
+}
+.belt4{
+    position: relative;
+    top: 50px;
+}
+
+.setumei1{
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: weight 20;
+  font-style: normal;
+
+}
