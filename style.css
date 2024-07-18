@@ -1,0 +1,220 @@
+/* ここに CSS のコードを書きましょう */
+
+hi{
+    font-size: 80px;
+}
+
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+  }
+  
+  .wrapper::before {
+     content: '';
+     display: block;
+     width: 100%;
+     height: 100%;
+     background-image: url(https://dol.ismcdn.jp/mwimgs/b/3/-/img_b3db7c75f9f3543e01b9b38cceccb8885974730.jpg);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     -webkit-animation: zoom 10s 1;
+     animation: zoom 10s 1;
+     animation-fill-mode: forwards;
+  }
+  
+  @keyframes zoom {
+     0% {
+        transform: scale(1);
+     }
+     100% {
+        transform: scale(1.5);
+     }
+  }
+  
+  .text{
+    /*wrapperの中身を上下中央揃え*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 400px;
+    height: 90px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card1{
+
+    height: 400px;
+    width: 400px;
+    background-color:blue;
+    padding-top: 100px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    background-image:url(https://www.pref.ishikawa.jp/seikatu/kouryu/page_sozai/ground2.png) ;
+}
+
+.card1{
+    text-align: center;
+    color: pink;
+    font-size: 40px;
+    justify-content: space-evenly;
+
+}
+
+.card1:hover{
+    color: aqua;
+    background-color: brown;
+    
+}
+
+
+
+
+
+.card2{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color : orange;
+    padding-top: 100px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    background-image:url(https://www.civillink.net/esozai/img/pics1994.gif) ;
+    
+
+}
+
+
+.card2{
+    text-align: center;
+    color :pink;
+    font-size: 40px;
+    
+}
+
+.card2:hover{
+    color: aqua;
+    background-color: brown;
+}
+
+
+.card3{
+    text-align: center;
+    color :pink;
+    font-size: 40px;
+    
+}
+
+
+.card3{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color : orange;
+    padding-top: 100px;
+    border: 1px solid yellow;
+    box-sizing: border-box;
+    background-image:url(https://thumb.ac-illust.com/af/af3f0dabbe7267aaaf60b3ef42a8a680_t.jpeg) ;
+    
+
+}
+
+.card3:hover{
+    color: aqua;
+    background-color: brown;
+
+}
+
+
+
+
+.field{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+h2{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+h3{
+    background-color: orange;
+    height: 500px
+    width 500px
+
+}
+
+
+
+.flex {
+    display: flex; /*横並び*/
+  }
+  .flex .image {
+    width: 60px; /*画像サイズ指定*/
+    margin: 0;
+    padding: 0;
+  }
+  .flex .image img {
+    width: 50%;
+    height: auto;
+  }
+  .flex.text {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+.flex{
+    position: relative;
+    top: 150px;
+}
+
+.button1{
+    position: relative;
+    top: 150px;
+}
+.button2{
+    position: relative;
+    top: 150px;
+}
+
+.button3{
+    position: relative;
+    top: 150px;
+}
+
+
+
